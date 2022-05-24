@@ -1,0 +1,273 @@
+/*   Previous to landing page CSS */
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+.subhead{
+  margin-top: -100px;
+  top:0;
+  text-transform: uppercase;
+  color: #7c7270;
+  letter-spacing: 7.5px;
+}
+
+.button-div{
+  margin-top: 2rem;
+}
+
+.button{
+  font-size: 22px;
+}
+/* Previous to Landing page CSS*/
+.navbarstyle{
+    background-color: #EBBBB0;
+    font-weight: bold;
+
+}
+.linkstyle{
+    font-family: sans-serif;
+}
+.footerbg{
+    background-color: #B95C50;
+}
+a{
+    text-decoration: none;
+    font-family:sans-serif;
+}
+.modallook{
+   background-color: #F9F1F0;
+   font-family: sans-serif;
+  
+}
+p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.us{
+  background-color: #F9F1F0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.containerlandingPage{
+  height:auto;
+  margin: auto;
+  margin-Top:10vh;
+  margin-bottom: 10vh;
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+}
+
+.box{
+  height: 300px;
+  width: 300px;
+  display: flex;
+  padding: 20px;  
+  margin: 30px;
+}
+.boxImage{
+  height: 300px;
+  width: 300px;
+}
+.boxImage:hover{
+ backdrop-filter: blur(10px);
+ filter: blur(4px);
+ transition: 0.5s ease-in 0s;
+}
+.boxText{
+  color: black;
+  position: absolute;
+  display: none;
+  margin: 90px 80px;
+  font-weight: bold;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 2.5rem;
+  z-index: 5;
+}
+.box:hover > span{
+  display: block;
+}
+.links{
+  color: black;
+}
+.links:hover{
+  color:black;
+}
+
+.slide{
+  height:70vh;
+  align-items: center;
+  display: flex;
+}
+.text{
+  margin: auto ;
+  padding:50px;
+  align-items: center;
+}
+.slideTitle{
+   text-align: center;
+  font-weight: bolder;
+  font-size: 65px;
+  margin:10px;
+  font-family: 'Playfair Display', serif;
+}
+.slideDesc{
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 20px;
+  margin:10px;
+  padding:10px;
+  font-weight: 500;
+  font-family: 'Lora', serif;
+}
+
+@media (max-width:998px) {
+  .containerlandingPage{
+    display: block;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+  }
+  .slideImg{
+    width:400px;
+    height: 550px;
+  }
+  .slideTitle{
+    font-size: xx-large;
+  }
+}
+
+
+.logoutbtn{
+  background-color: #EBBBB0;
+  width: 150px;
+  border: none;
+  margin: 5px;
+  color:black;
+  font-family: cursive;
+}
+.logoutbtn:hover{
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+}
+
+.imgcontain{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  
+}
+.headingStyleLine{
+  width: 100%;
+  height: 20px; 
+  border-bottom: 2px solid #B5838D; 
+  text-align: center;  
+  margin-bottom: 20px;
+  padding: 0 40px;
+}
+.headingStyle{
+ padding: 0 10px;
+ background-color:#fff7f4;
+ color: #CE4257;
+ font-weight: bold;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+.belowSliderInner{
+  padding: 8% 9% 6% 12%;
+  object-fit: contain;
+}
+.spacebet{
+ margin-top: 16%;
+}
+.curated{
+  width: 225.5px;
+  
+}
+
+.circle{
+  width: 200px;
+  height: 200px;
+  padding-top: 50px;
+  background-color: #b54e29;
+}
+
+.thrill{
+  background-color: #f7ded5;
+  color: #CE4257;
+}
+.thrillCol{
+  max-width: 300px;
+}
+.thrillIcon{
+  height: 60px;
+  
+}
+.donate{
+  background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://designwebkit.com/wp-content/uploads/2018/02/charity-main.jpg');;
+  /* background-image: url(""); */
+  height: 534px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.donateText {
+  padding-top: 170px;
+  color: rgb(241, 85, 34);
+  
+}
+.donateUpperheading{
+  font-size:50px;
+  -webkit-text-fill-color: rgb(241, 85, 34); 
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: black;
+  
+}
+.bookButton{
+  box-shadow:rgb(0 0 0) 0px 0px 8px 1px;
+  background-color:rgb(241, 85, 34);
+}
+.product-style{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.p-des{
+  white-space: nowrap;
+        overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ngoicon{
+  margin-right: 10px;
+}
+.justifycontent{
+  text-align: justify;
+}
+.textreponsive{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+@media (max-width:320px) {
+  .textreponsive{
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+body.card{border:none}.product{background-color: #eee}.brand{font-size: 13px}.act-price{color:red;font-weight: 700}.dis-price{text-decoration: line-through}.about{font-size: 14px}.color{margin-bottom:10px}label.radio{cursor: pointer}label.radio input{position: absolute;top: 0;left: 0;visibility: hidden;pointer-events: none}label.radio span{padding: 2px 9px;border: 2px solid #ff0000;display: inline-block;color: #ff0000;border-radius: 3px;text-transform: uppercase}label.radio input:checked+span{border-color: #ff0000;background-color: #ff0000;color: #fff}.btn-danger{background-color: #ff0000 !important;border-color: #ff0000 !important}.btn-danger:hover{background-color: #da0606 !important;border-color: #da0606 !important}.btn-danger:focus{box-shadow: none}.cart i{margin-right: 10px}
